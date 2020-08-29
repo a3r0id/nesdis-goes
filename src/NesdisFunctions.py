@@ -118,7 +118,6 @@ def parseDateTime(this):
     hour = this.split(year + " ")[1].split(":")[0]
     minute = this.split(hour + ":")[1]
 
-    out = None
     if not monthSet:
         out = None
     else:
