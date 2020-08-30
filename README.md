@@ -82,7 +82,7 @@ API = nesdis(
     {
         "sector": "virginia state",
         "band": "physics micro",
-        "time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}}
+        "time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}},
         "dimensions": [250,250]
     }
 )
