@@ -87,6 +87,8 @@ API = nesdis(
     }
 )
 
+print(API.payload)
+
 myGif = "test1.gif"
 
 API.makeGif(myGif)
