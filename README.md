@@ -69,9 +69,29 @@ we'll use "oldest" and "newest" instead of x/y.
 **Do Not Change** - *for further implementations only*
 
 Sets the type of images to select.
-
 Types are: `default`(defaults to this and really shouldn't be changed), `thumbnail`, `unknown`, `banner`
-
 Note: Not really useful at this point in time, I will use this later to call specific images that are not the default slid images like thumbnails etc.
+
+```python
+
+# Import the API
+from NesdisAPI import nesdis
+
+# BASIC USAGE
+API = nesdis(
+    {
+        "sector": "virginia state",
+        "band": "physics micro",
+        "time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}}
+        "dimensions": [250,250]
+    }
+)
+
+myGif = "test1.gif"
+
+API.makeGif(myGif)
+
+API.cleanUp()
+```
 
 Note: I'll eventually move this to a module that way it can be installed easier via PIP and properly imported.
