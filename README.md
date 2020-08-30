@@ -7,6 +7,7 @@ Also compiles gifs and a few other utilities.
 > Simply move the contents of `/src` to your project folder.
 
 *Sped up to 8x for first half of gif.*
+<br/>
 ![](https://raw.githubusercontent.com/aerobotpro/nesdis-goes/master/ezgif-1-41d268808025.gif)
 
 
