@@ -33,16 +33,20 @@ For all options visit:
 [Here for all bands](https://www.star.nesdis.noaa.gov/goes/conus.php?sat=G17)
 
 ### API Methods:
-``API.showimages()``
+`API.showimages()`
+<br/>
 Opens each image received, will cause issues if many results (buggy).
 
-``API.makeGif(GIFname: string)``
+`API.makeGif(GIFname: string)`
+<br/>
 Create a GIF from each image received.
 
-``API.cleanUp()``
+`API.cleanUp()`
+<br/>
 Deletes all downloaded images.
 
-``API.payload``
+`API.payload`
+<br/>
 The final query result object, holds all results from query.
 Can be utilized for many applications like Django sites etc.
 
