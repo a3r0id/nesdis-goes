@@ -1,5 +1,7 @@
 # nesdis-goes
 This API downloads satellite imagery directly from star.nesdis.noaa.gov.
+Easily access and organize the latest imagery with loose querying allowing 
+many user-app possibilities. 
 Also compiles gifs and a few other utilities.
 
 
@@ -23,13 +25,26 @@ This API accepts a mixed query (dictionary):
 ``Example: "cloud weather"``
 
 (dimensions: `list`)
-
 > The desired dimensions of each image in the group of images's.
 ``Dimensions are limited to [250,250] or [500, 500] or [1000, 1000] or [2000, 2000].``
 
 For all options visit:
 [Here for all sectors](https://www.star.nesdis.noaa.gov/goes/index.php)
 [Here for all bands](https://www.star.nesdis.noaa.gov/goes/conus.php?sat=G17)
+
+### API Methods:
+> ``API.showimages()``
+>  Open each image received, will cause issues if many results (buggy).
+
+> ``API.makeGif(GIFname: string)``
+> Create a GIF from each image received.
+
+> ``API.cleanUp()``
+> Deletes all downloaded images.
+
+> ``API.payload``
+> The final query result object, holds all results from query.
+> Can be utilized for many applications like Django sites etc.
 
 
 ```python
