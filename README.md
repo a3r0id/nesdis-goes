@@ -7,7 +7,7 @@ Also compiles gifs and a few other utilities.
 > Simply move the contents of `/src` to your project folder.
 
 ## Basic Options:
-> This API accepts a mixed query (dictionary):
+This API accepts a mixed query (dictionary):
 
 (sector: `string`)
 > The group of imagery's region (string of keywords).
@@ -55,17 +55,23 @@ Accepts same query as *Basic Options* plus:
 
 (time: `dict`)
 > Sets either a timeframe from now and minus `x` amount of either hours(`int`) or days(`int`) 
+
 > Example: `"time": {"days": 2}`
 
 **or**
 
 > sets a split time from, essentially a time between **x**(`datetime string`) and **y**(`datetime string`),
 we'll use "oldest" and "newest" instead of x/y.
+
 > Example: `"time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}}`
 
-(type: `string`) **Do Not Change** - *for further implementations only*
+(type: `string`) 
+**Do Not Change** - *for further implementations only*
+
 Sets the type of images to select.
+
 Types are: `default`(defaults to this and really shouldn't be changed), `thumbnail`, `unknown`, `banner`
+
 Note: Not really useful at this point in time, I will use this later to call specific images that are not the default slid images like thumbnails etc.
 
 Note: I'll eventually move this to a module that way it can be installed easier via PIP and properly imported.
