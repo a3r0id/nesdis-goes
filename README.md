@@ -47,19 +47,19 @@ API.cleanUp()
 
 ## Advanced Usage:
 
-Accepts same query as __Basic Options__ plus:
+Accepts same query as *Basic Options* plus:
 
 (time: `dict`)
 Sets either a timeframe from now and minus `x` amount of either hours(`int`) or days(`int`) 
 Example: `"time": {"days": 2}`
 
-__or__
+**or**
 
-sets a split time from, essentially a time between __x__(`datetime string`) and __y__(`datetime string`),
+sets a split time from, essentially a time between **x**(`datetime string`) and **y**(`datetime string`),
 we'll use "oldest" and "newest" instead of x/y.
 Example: `"time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}}`
 
-(type: `string`) __Do Not Change - for further implementations only__
+(type: `string`) **Do Not Change** - *for further implementations only*
 Sets the type of images to select.
 Types are: `default`(defaults to this and really shouldn't be changed), `thumbnail`, `unknown`, `banner`
 Note: Not really useful at this point in time, I will use this later to call specific images that are not the default slid images like thumbnails etc.
