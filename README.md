@@ -35,20 +35,21 @@ For all options visit:
 ### API Methods:
 `API.showimages()`
 <br/>
-Opens each image received, will cause issues if many results (buggy).
+> Opens each image received, will cause issues if many results (buggy).
 
 `API.makeGif(GIFname: string)`
 <br/>
-Creates a GIF from each image received.
+> Creates a GIF from each image received.
 
 `API.cleanUp()`
 <br/>
-Deletes all downloaded images.
+> Deletes all downloaded images.
 
 `API.payload`
 <br/>
-The final query result object, holds all results from query.
-Can be utilized for many applications like Django sites etc.
+> The final query result object, holds all results from query.
+<br/>
+> Can be utilized for many applications like Django sites etc.
 
 
 ```python
