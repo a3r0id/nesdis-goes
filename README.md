@@ -1,5 +1,5 @@
 # nesdis-goes
-Downloads satellite imagery directly from star.nesdis.noaa.gov.
+This API downloads satellite imagery directly from star.nesdis.noaa.gov.
 Also compiles gifs and a few other utilities.
 
 
