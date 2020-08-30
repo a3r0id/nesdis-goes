@@ -6,6 +6,8 @@ Also compiles gifs and a few other utilities.
 ## Setup:
 > Simply move the contents of `/src` to your project folder.
 
+![](https://raw.githubusercontent.com/aerobotpro/nesdis-goes/master/ezgif-1-41d268808025.gif)
+
 ## Basic Options:
 This API accepts a mixed query (dictionary):
 
