@@ -39,7 +39,7 @@ Opens each image received, will cause issues if many results (buggy).
 
 `API.makeGif(GIFname: string)`
 <br/>
-Create a GIF from each image received.
+Creates a GIF from each image received.
 
 `API.cleanUp()`
 <br/>
