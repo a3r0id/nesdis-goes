@@ -18,7 +18,7 @@ This API accepts a mixed query (dictionary):
 
 (sector: `string`)
 > The group of imagery's region (string of keywords).
-``Exapmple: "norther pacific ocean"``
+``Exapmple: "northern pacific ocean"``
 
 (band: `string`)
 > The group of imagery's type or band(string of keywords).
