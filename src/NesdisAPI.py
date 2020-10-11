@@ -1,7 +1,7 @@
 from NesdisFunctions import getDefaultSlidesByTimeframe, RETRIEVE, multiShow, makegif, cleanUp, gatherImages
 
 # [**i**] LIBRARY TO GRACEFULLY SCRAPE PUBLIC SATELLITE IMAGERY FROM https://star.nesdis.noaa.gov [**i**]
-# Python API By github.com/aerobotpro
+# Python API By github.com/hostinfodev
 
 # API v1
 class nesdis(object):   
