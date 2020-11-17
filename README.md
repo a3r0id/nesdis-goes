@@ -48,7 +48,7 @@ For all options visit:
 `API.payload`
 <br/>
 > The final query result object, holds all results from query.
-Can be utilized for many applications like Django sites etc.
+Can be utilized for many applications like Django apps etc.
 
 
 ```python
