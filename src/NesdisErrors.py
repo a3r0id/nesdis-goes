@@ -6,5 +6,5 @@ class Errors:
         pass
 
     class NoValidMatch(Error):
-        """No explicit/implicit match found in query using provided keyword!"""
+        """No explicit/implicit match found in query using provided keyword literal!"""
         pass
