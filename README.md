@@ -1,6 +1,6 @@
 # nesdis-goes (Unofficial)
 This API downloads satellite imagery directly from star.nesdis.noaa.gov.
-Easily access and organize the latest imagery with loose querying allowing 
+Easily access and organize the latest imagery with loose-querying allowing 
 many user-app possibilities. 
 Also compiles gifs and a few other utilities.
 
