@@ -101,7 +101,7 @@ Note: Not really useful at this point in time, I will use this later to call spe
 # Import the API
 from NesdisAPI import nesdis
 
-# BASIC USAGE
+# ADVANCED USAGE
 API = nesdis(
     {
         "sector": "virginia state",
