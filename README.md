@@ -48,7 +48,6 @@ For all options visit:
 `API.payload`
 <br/>
 > The final query result object, holds all results from query.
-Can be utilized for many applications like Django apps etc.
 
 
 ```python
@@ -87,7 +86,7 @@ Accepts same query as *Basic Options* plus:
 > sets a split time from, essentially a time between **x**(`datetime string`) and **y**(`datetime string`),
 we'll use "oldest" and "newest" instead of x/y.
 
-> Example: `"time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-30 23:30"}}`
+> Example: `"time": {timeframe: {"oldest": "2020-08-01 12:30", "newest": "2020-08-1 13:30"}}`
 
 (type: `string`) 
 **Do Not Change** - *for further implementations only*
