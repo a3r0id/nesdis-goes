@@ -1,9 +1,5 @@
 # nesdis-goes (Unofficial)
-This API downloads satellite imagery directly from star.nesdis.noaa.gov.
-Easily access and organize the latest imagery with loose-querying allowing 
-many user-app possibilities. 
-Also compiles gifs and a few other utilities.
-
+This API downloads and manipulates GOES-16/17 satellite imagery directly from star.nesdis.noaa.gov based on various searchable data-points. 
 
 ## Setup:
 > Simply move the contents of `/src` to your project folder.
@@ -13,12 +9,12 @@ Also compiles gifs and a few other utilities.
 ![](https://raw.githubusercontent.com/hostinfodev/nesdis-goes/master/ezgif-1-41d268808025.gif)
 
 
-## Basic Options:
+## Basic Usage:
 This API accepts a mixed query (dictionary):
 
 (sector: `string`)
 > The group of imagery's region (string of keywords).
-``Example: "northern pacific ocean"``
+``Example: "north pacific ocean"``
 
 (band: `string`)
 > The group of imagery's type or band(string of keywords).
